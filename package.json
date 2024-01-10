@@ -1,0 +1,25 @@
+{
+  "name": "package-test01",
+  "version": "1.0.0",
+  "description": "Github exercise example package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build main.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryun/excercise-publish-package.git"
+  },
+  "author": "ryun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryun/excercise-publish-package/issues"
+  },
+  "homepage": "https://github.com/ryun/excercise-publish-package#readme",
+  "dependencies": {
+  }
+}
